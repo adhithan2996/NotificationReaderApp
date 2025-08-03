@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Notification Reader</string>
+    <string name="enable_notification_access">Enable Notification Access</string>
+    <string name="notification_access_required">This app needs notification access to read and display your notifications.</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="no_notifications">No notifications yet</string>
+    <string name="notification_title">Title</string>
+    <string name="notification_text">Text</string>
+    <string name="notification_package">App</string>
+    <string name="notification_time">Time</string>
+    <string name="clear_all">Clear All</string>
+    <string name="refresh">Refresh</string>
+    <string name="notification_access_granted">Notification access granted!</string>
+    <string name="notification_access_denied">Notification access denied. Please enable it in settings.</string>
+</resources> 
