@@ -11,13 +11,6 @@ A native Android app built with Kotlin that reads and displays all phone notific
 - **Clear All**: Option to clear all stored notifications
 - **Refresh**: Manual refresh capability
 
-## Requirements
-
-- Android Studio Arctic Fox or later
-- Android SDK 24+ (API level 24)
-- Kotlin 1.9.10+
-- Gradle 8.4+
-
 ## Setup Instructions
 
 1. **Clone or download the project**
@@ -40,14 +33,6 @@ The app requires the following permissions:
 - `FOREGROUND_SERVICE`: For the notification service
 - `POST_NOTIFICATIONS`: To post notifications (Android 13+)
 
-## Architecture
-
-- **MainActivity**: Main UI and permission handling
-- **NotificationService**: Background service that captures notifications
-- **NotificationAdapter**: RecyclerView adapter for displaying notifications
-- **NotificationItem**: Data class for notification information
-- **NotificationManager**: Manages notification operations
-
 ## Building
 
 ```bash
@@ -64,13 +49,3 @@ The app requires the following permissions:
 2. Grant notification permissions
 3. Send test notifications from other apps
 4. Verify notifications appear in the app
-
-## Troubleshooting
-
-- **No notifications showing**: Make sure notification access is granted in Settings
-- **Build errors**: Ensure you have the latest Android Studio and SDK tools
-- **Permission denied**: Check that the app has notification access enabled
-
-## License
-
-This project is for educational purposes. Use responsibly and respect user privacy. 
