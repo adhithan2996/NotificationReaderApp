@@ -1,6 +1,6 @@
-# Notification Reader App
+# Notification Management App
 
-A native Android app built with Kotlin that reads and displays all phone notifications in a beautiful Material Design 3 interface.
+A native Android app built with Kotlin that reads and displays all phone notifications. It also proceseses them locally for better notfication management, using a beautiful Material Design 3 interface.
 
 ## Features
 
